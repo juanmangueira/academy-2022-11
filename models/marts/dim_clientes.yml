@@ -11,34 +11,34 @@ models:
           - not_null
 
       - name: id_cliente
-        description: NA
+        description: Chave natural de identificação do cliente.
       
       - name: nome_do_cliente
-        description: NA
+        description: Nome do cliente.
       
       - name: titulo_de_cortesia
-        description: NA
+        description: Pronome de tratamento usado com o cliente.
       
       - name: nome_da_empresa
-        description: NA
+        description: Nome da empresa do cliente.
       
       - name: endereco
-        description: NA
+        description: Endereco do cliente.
       
       - name: cep
-        description: NA
+        description: Codigo postal do cliente.
       
       - name: cidade
-        description: NA
+        description: Cidade do cliente.
       
       - name: regiao
-        description: NA
+        description: Regiao do cliente.
       
       - name: pais
-        description: NA
+        description: Pais do cliente.
       
       - name: fax
-        description: NA
+        description: Numero de fax do cliente.
       
       - name: telefone
-        description: NA
+        description: Numero de telefone do cliente.

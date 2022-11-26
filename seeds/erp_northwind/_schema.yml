@@ -1,0 +1,7 @@
+version: 2
+
+seeds:
+  - name: categories
+    config:
+      column_types:
+        el_loaded_raw: datetime
