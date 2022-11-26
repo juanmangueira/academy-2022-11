@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: dim_clientes
+    description: Tabela dimensão de clientes.
+    columns:
+      - name: sk_cliente
+        description: Chave primária da tabela de clientes.
+        tests:
+          - unique
+          - not_null
+
+      - name: id_cliente
+        description: NA
+      
+      - name: nome_do_cliente
+        description: NA
+      
+      - name: titulo_de_cortesia
+        description: NA
+      
+      - name: nome_da_empresa
+        description: NA
+      
+      - name: endereco
+        description: NA
+      
+      - name: cep
+        description: NA
+      
+      - name: cidade
+        description: NA
+      
+      - name: regiao
+        description: NA
+      
+      - name: pais
+        description: NA
+      
+      - name: fax
+        description: NA
+      
+      - name: telefone
+        description: NA
